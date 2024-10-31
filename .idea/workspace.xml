@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="770f9f4b-f21d-4a83-bf64-6ea36bb14a56" name="Changes" comment="startproject">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/_Header/_Header-references/header-references.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/_Header/_Header-references/header-references.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -43,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "template",
-    "last_opened_file_path": "C:/Users/ash/Desktop/Django-project/djangoProject/templates/base",
+    "last_opened_file_path": "C:/Users/ash/Desktop/Django-project/djangoProject/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +58,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ash\Desktop\Django-project\djangoProject\assets" />
       <recent name="C:\Users\ash\Desktop\Django-project\djangoProject\templates\base" />
     </key>
   </component>
@@ -101,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730288006321</updated>
       <workItem from="1730288087067" duration="721000" />
-      <workItem from="1730339043725" duration="1252000" />
+      <workItem from="1730339043725" duration="4422000" />
     </task>
     <task id="LOCAL-00001" summary="startproject">
       <option name="closed" value="true" />

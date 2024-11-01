@@ -1,0 +1,34 @@
+{% load static %}
+{% load render_partial %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+{% include 'base/_Header/_Header-references/header-references.html' %}
+</head>
+
+<body class="bg-white">
+
+    {% render_partial 'home_module.views.header_component' %}
+
+    
+    {% block body %}
+    	
+    {% endblock %}
+
+    <!-- Footer Start -->
+   {% render_partial 'home_module.views.footer_component' %}
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    {% include 'base/_Footer/_footer-references/footer-references.html' %}
+</body>
+
+</html>

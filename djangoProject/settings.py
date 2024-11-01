@@ -43,6 +43,8 @@ INSTALLED_APPS = [
 
     #internal app
     'home_module',
+    'aboutUs_module',
+
 ]
 
 MIDDLEWARE = [

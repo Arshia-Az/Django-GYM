@@ -1,17 +1,6 @@
+{% extends 'base/base.html' %}
 {% load static %}
-{% load render_partial %}
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    
-{% include 'base/_Header/_Header-references/header-references.html' %}
-</head>
-
-<body class="bg-white">
-
-    {% render_partial 'home_module.views.header_component' %}
+{% block body %}
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0">
@@ -333,7 +322,7 @@
                                     <td class="bg-primary text-white"><h5 class="text-white">Cardio</h5>John Deo</td>
                                     <td></td>
                                     <td><h5>Crossfit</h5>Adam Phillips</td>
-                                    <td></td> 
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <th class="bg-secondary text-white align-middle">5.00pm - 7.00pm</th>
@@ -393,7 +382,7 @@
                                     <td><h5>Cardio</h5>John Deo</td>
                                     <td></td>
                                     <td class="bg-primary text-white"><h5 class="text-white">Crossfit</h5>Adam Phillips</td>
-                                    <td></td> 
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <th class="bg-secondary text-white align-middle">5.00pm - 7.00pm</th>
@@ -453,7 +442,7 @@
                                     <td><h5>Cardio</h5>John Deo</td>
                                     <td></td>
                                     <td><h5>Crossfit</h5>Adam Phillips</td>
-                                    <td></td> 
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <th class="bg-secondary text-white align-middle">5.00pm - 7.00pm</th>
@@ -724,18 +713,4 @@
     </div>
     <!-- Blog End -->
 
-
-    <!-- Footer Start -->
-   {% render_partial 'home_module.views.footer_component' %}
-    <!-- Footer End -->
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    {% include 'base/_Footer/_footer-references/footer-references.html' %}
-</body>
-
-</html>
+{% endblock %}
